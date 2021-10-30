@@ -14,10 +14,9 @@
         <div class="form-container sign-up-container">
             <form action="#">
                 <h1 class="mb-5">B-TECHNO</h1>
-                <h5>Create Account</h5>
-                <input type="text" placeholder="Name" />
-                <input type="email" placeholder="Email" />
-                <input type="password" placeholder="Password" />
+                <h5>Sign Up</h5>
+                <input type="text" placeholder="Create Username" />
+                <input type="password" placeholder="Create Password" />
                 <button>Sign Up</button>
                 <span class="mt-3">or sign up with</span>
                 <div class="social-container">
@@ -25,6 +24,7 @@
                     <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
                     <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
                 </div>
+                <span class="mt-3">Already Have an Account?</span>
                 <button class="btn-warning ghost" id="signIn">Sign In</button>
             </form>
         </div>
@@ -32,7 +32,7 @@
             <form action="#">
                 <h1 class="mb-5">B-TECHNO</h1>
                 <h5>Sign in</h5>
-                <input type="email" placeholder="Email" />
+                <input type="text" placeholder="Username" />
                 <input type="password" placeholder="Password" />
                 <a href="#">Forgot your password?</a>
                 <button>Sign In</button>
@@ -42,11 +42,12 @@
                     <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
                     <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
                 </div>
-                <button class="btn-warning ghost mt-4" id="signUp">Sign Up</button>
+                <span class="mt-3">Don't Have an Account?</span>
+                <button class="btn-warning ghost" id="signUp">Sign Up</button>
             </form>
         </div>
         <div class="overlay-container">
-            <div class="overlay text-dark">
+            <div class="overlay text-warning">
                 <div class="overlay-panel overlay-left">
                     <h3 class="" style="font-weight: bold;">Software Analytics And Marketing Statistics</h3>
                     <b>Now is the winter of our discontent Made glorious summer by this sun of York And all the clouds that lour'd upon our house In the deep bosom of the ocean buried.</b>
