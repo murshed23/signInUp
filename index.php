@@ -12,11 +12,12 @@
 <body>
     <div class="container" id="container">
         <div class="form-container sign-up-container">
-            <form action="#">
-                <h1 class="mb-5">B-TECHNO</h1>
+            <form action="signUp.php" method="POST">
+                <h1 class="mb-3 mt-5">B-TECHNO</h1>
                 <h5>Sign Up</h5>
                 <input type="text" placeholder="Create Username" />
                 <input type="password" placeholder="Create Password" />
+                <a href="#">Autogenerate Password?</a>
                 <button>Sign Up</button>
                 <span class="mt-3">or sign up with</span>
                 <div class="social-container">
@@ -24,13 +25,15 @@
                     <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
                     <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
                 </div>
-                <span class="mt-3">Already Have an Account?</span>
-                <button class="btn-warning ghost" id="signIn">Sign In</button>
             </form>
+            <div class="container text-center">
+                <p class="mt-3">Already Have an Account?</p>
+                <button class="btn-warning ghost" id="signIn">Sign In</button>
+            </div>
         </div>
         <div class="form-container sign-in-container">
-            <form action="#">
-                <h1 class="mb-5">B-TECHNO</h1>
+            <form action="signIn.php" method="POST">
+                <h1 class="mb-3 mt-5">B-TECHNO</h1>
                 <h5>Sign in</h5>
                 <input type="text" placeholder="Username" />
                 <input type="password" placeholder="Password" />
@@ -42,9 +45,11 @@
                     <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
                     <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
                 </div>
-                <span class="mt-3">Don't Have an Account?</span>
-                <button class="btn-warning ghost" id="signUp">Sign Up</button>
             </form>
+            <div class="container text-center">
+                <p class="mt-3">Don't Have an Account?</p>
+                <button class="btn-warning ghost" id="signUp">Sign Up</button>
+            </div>
         </div>
         <div class="overlay-container">
             <div class="overlay text-warning">
