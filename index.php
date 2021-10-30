@@ -15,8 +15,8 @@
             <form action="signUp.php" method="POST">
                 <h1 class="mb-3 mt-5">B-TECHNO</h1>
                 <h5>Sign Up</h5>
-                <input type="text" placeholder="Create Username" />
-                <input type="password" placeholder="Create Password" />
+                <input type="text" name="username" placeholder="Create Username" />
+                <input type="password" name="password" placeholder="Create Password" />
                 <a href="#">Autogenerate Password?</a>
                 <button>Sign Up</button>
                 <span class="mt-3">or sign up with</span>
@@ -35,8 +35,8 @@
             <form action="signIn.php" method="POST">
                 <h1 class="mb-3 mt-5">B-TECHNO</h1>
                 <h5>Sign in</h5>
-                <input type="text" placeholder="Username" />
-                <input type="password" placeholder="Password" />
+                <input type="text" name="username" placeholder="Username" />
+                <input type="password" name="password" placeholder="Password" />
                 <a href="#">Forgot your password?</a>
                 <button>Sign In</button>
                 <span class="mt-3">or sign in with</span>
