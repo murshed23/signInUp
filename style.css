@@ -62,7 +62,7 @@ button:focus {
 	outline: none;
 }
 
-form {
+form#sign {
 	background-color: #FFFFFF;
 	display: flex;
 	align-items: center;

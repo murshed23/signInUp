@@ -12,7 +12,7 @@
 <body>
     <div class="container" id="container">
         <div class="form-container sign-up-container">
-            <form action="signUp.php" method="POST">
+            <form id="sign" action="signUp.php" method="POST">
                 <h1 class="mb-3 mt-5">B-TECHNO</h1>
                 <h5>Sign Up</h5>
                 <input type="text" name="username" placeholder="Create Username" />
@@ -32,7 +32,7 @@
             </div>
         </div>
         <div class="form-container sign-in-container">
-            <form action="signIn.php" method="POST">
+            <form id="sign" action="signIn.php" method="POST">
                 <h1 class="mb-3 mt-5">B-TECHNO</h1>
                 <h5>Sign in</h5>
                 <input type="text" name="username" placeholder="Username" />
