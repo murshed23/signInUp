@@ -13,11 +13,13 @@
     <title>Document</title>
 </head>
 <body class="bg-primary bg-gradient">
-
     <div class="container-fluid">
-        <div class="text-center text-white justify-center">
-            <h1 class="" style="font-size: 100px;">Welcome<br><?php echo $id ?></h1>
-        </div>
+        <form action="logout.php" method="post">
+            <div class="text-center text-white justify-center">
+                <h1 class="" style="font-size: 100px;">Welcome<br><?php echo $id ?></h1>
+                <button>Sign Out</button>
+            </div>
+        </form>
     </div>
     
 </body>

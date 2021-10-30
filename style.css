@@ -3,7 +3,6 @@
 }
 
 body {
-	background: #ffffff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -63,7 +62,6 @@ button:focus {
 }
 
 form {
-	background-color: #FFFFFF;
 	display: flex;
 	align-items: center;
 	justify-content: center;
