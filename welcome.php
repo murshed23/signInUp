@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
+<body class="bg-primary bg-gradient">
 
     <div class="container-fluid">
-        <div class="text-center justify-center">
-            <h1 class="">Welcome</h1>
+        <div class="text-center text-white justify-center">
+            <h1 class="" style="font-size: 100px;">Welcome<br><?php echo $id ?></h1>
         </div>
     </div>
     
