@@ -3,7 +3,7 @@
 }
 
 body {
-	background: #f6f5f7;
+	background: #ffffff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -62,16 +62,13 @@ button:focus {
 	outline: none;
 }
 
-button.ghost {
-}
-
 form {
 	background-color: #FFFFFF;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	padding: 0 50px;
+	padding: 0 100px;
 	height: 100%;
 	text-align: center;
 }
@@ -172,7 +169,6 @@ input {
 	position: absolute;
 	display: flex;
 	align-items: center;
-	justify-content: center;
 	flex-direction: column;
 	padding: 0 40px;
 	text-align: center;
@@ -181,7 +177,7 @@ input {
 	width: 50%;
 	transform: translateX(0);
 	transition: transform 0.6s ease-in-out;
-    padding-bottom: 25%;
+    padding-top: 3%;
 }
 
 .overlay-left {

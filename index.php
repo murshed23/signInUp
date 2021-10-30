@@ -13,7 +13,7 @@
     <div class="container" id="container">
         <div class="form-container sign-up-container">
             <form action="#">
-                
+                <h1 class="mb-5">B-TECHNO</h1>
                 <h5>Create Account</h5>
                 <input type="text" placeholder="Name" />
                 <input type="email" placeholder="Email" />
@@ -25,10 +25,12 @@
                     <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
                     <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
                 </div>
+                <button class="btn-warning ghost" id="signIn">Sign In</button>
             </form>
         </div>
         <div class="form-container sign-in-container">
             <form action="#">
+                <h1 class="mb-5">B-TECHNO</h1>
                 <h5>Sign in</h5>
                 <input type="email" placeholder="Email" />
                 <input type="password" placeholder="Password" />
@@ -48,7 +50,6 @@
                 <div class="overlay-panel overlay-left">
                     <h3 class="" style="font-weight: bold;">Software Analytics And Marketing Statistics</h3>
                     <b>Now is the winter of our discontent Made glorious summer by this sun of York And all the clouds that lour'd upon our house In the deep bosom of the ocean buried.</b>
-                    <button class="btn-warning ghost" id="signIn">Sign In</button>
                 </div>
                 <div class="overlay-panel overlay-right">
                     <h3 class="" style="font-weight: bold;">Technical Analysis of Software Requirement</h3>
